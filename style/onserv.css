@@ -1,0 +1,170 @@
+a {
+	color:#963;
+	outline:none;
+	cursor:pointer;
+	text-decoration:none
+}
+a:hover {
+	text-decoration:none;
+	  color: #79B200;
+}
+body {
+	background-image: url("bg.jpg");
+	background-repeat: repeat;
+	color: #CCCCCC;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+.main_head {
+	background: url("img3-5_2.png") no-repeat scroll 0 0 transparent;
+}
+* HTML .main_head {
+	background: none repeat scroll 0 0 transparent;
+}
+* + HTML .main_head {
+	background: url("img3-5_2.png") no-repeat scroll 0 0 transparent;
+}
+.info {
+	background: url("img3-5_3.png") repeat-y scroll 0 0 transparent;
+	padding: 5px 0 10px;
+}
+* HTML .info {
+	background-repeat: repeat-y;
+}
+* + HTML .info {
+	background: url("img3-5_3.png") repeat-y scroll 0 0 transparent;
+	padding: 5px 0 10px;
+}
+.down_kefu {
+	background: url("img3-5_4.png") no-repeat scroll 0 0 transparent;
+	height: 8px;
+	width: 157px;
+}
+* HTML .down_kefu {
+	background-repeat: repeat-y;
+	height: 8px;
+	width: 157px;
+}
+* + HTML .down_kefu {
+	background: url("img3-5_4.png") no-repeat scroll 0 0 transparent;
+	height: 8px;
+	width: 157px;
+}
+#serv-bar {
+	background: url("img3-5_1.png") no-repeat scroll 0 0 transparent;
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="img3-5_1.png");
+	float: left;
+	height: 139px;
+	margin-left: -5px;
+	margin-top: 104px;
+	width: 32px;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+* HTML .Obtn {
+	background: none repeat scroll 0 0 transparent;
+	float: left;
+	height: 139px;
+	width: 32px;
+}
+* + HTML .Obtn {
+	background: url("img3-5_1.png") no-repeat scroll 0 0 transparent;
+	float: left;
+	height: 139px;
+	margin-left: -5px;
+	margin-top: 104px;
+	width: 32px;
+}
+.qqtable SPAN {
+	color: #FF6600;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 5px 0;
+	width: 100px;
+}
+.qqtable A {
+	text-decoration: none;
+}
+.qqtable A:hover {
+	text-decoration: none;
+}
+.qun {
+	background-color: #FFFFFF;
+	border-color: #FFD2BF;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 5px 0;
+	width: 100px;
+}
+.qun SPAN {
+	color: #FF6600;
+	font-size: 13px;
+	font-weight: bold;
+}
+#main {
+	margin-left:50px
+}
+#menu1 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+.topmenu1 {
+	position: relative;
+	width: 800px;
+	padding: 0px;
+	overflow: hidden;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0px;
+	line-height: 16px;
+	height: 29px;
+	font-size: 12px;
+}
+.topmenu1 li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.topmenu1 li.back {
+	width: 14px;
+	height: 29px;
+	z-index: 8;
+	position: absolute;
+	background-image: url(lava.gif);
+	background-repeat: no-repeat;
+	background-position: right -29px;
+}
+.topmenu1 li.back .left {
+	height: 29px;
+	margin-right: 14px; /* 7px is the width of the rounded shape */
+	background-image: url(lava.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.topmenu1 li a {
+	text-decoration: none;
+	color: #999999;
+	outline: none;
+	text-align: center;
+	top: 7px;
+	z-index: 10;
+	display: block;
+	float: left;
+	height: 30px;
+	position: relative;
+	overflow: hidden;
+	margin-top: auto;
+	margin-right: 10px;
+	margin-bottom: auto;
+	margin-left: 10px;
+}
+.topmenu1 li a:hover, .topmenu1 li a:active, .topmenu1 li a:visited {
+	border: none;
+}

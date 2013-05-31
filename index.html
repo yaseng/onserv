@@ -1,0 +1,150 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>jQuery.onServ  简单方便的在线客服展示插件 -- 高空科技 [www.uauc.net] 出品</title>
+<meta name="description" content="简单方便的在线客服展示插jQuery.onServ  ,可自定义各种动画效果" />
+<meta name="keywords" content="高空科技,www.uauc.net,jQuery.onServ  在线客服插件" />
+<link href="style/onserv.css" rel="stylesheet" type="text/css" />
+<script src="jquery.js"> </script>
+<script src="jquery.easing.min.js"> </script>
+<script src="jquery.lavalamp.min.js"> </script>
+<script src="jquery.onserv.min.js"> </script>
+<script>
+  
+ 
+ $(function(){
+			
+  $("#serv").onserv({
+	 top:80,            // 高度
+	 left:-156,         //缩进
+	 fx:"easeInOutBack",       //动作特效  
+	 speed:150,         //弹出时间
+	 opacity:0.9        //透明度
+	 });
+	 
+ 
+ });
+
+ 
+</script>
+</head>
+<body>
+<div   id="serv"  style="display:none; z-index:999">
+  <table width="157" cellspacing="0" cellpadding="0" border="0" style="FLOAT: left">
+    <tbody>
+      <tr>
+        <td valign="top" height="39" class="main_head">&nbsp;</td>
+      </tr>
+      <tr>
+        <td valign="top" class="info"><table width="120" cellspacing="0" cellpadding="0" border="0" align="center" class="qqtable">
+            <tbody>
+              <tr>
+                <td align="center"><a target="_blank" href="http://www.uauc.net/"><img border="0" src="style/onserv_logo.png"></a></td>
+              </tr>
+              <tr>
+                <td height="5"></td>
+              </tr>
+              <tr>
+                <td height="35" align="center"><span><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=14353224&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:14353224:42" alt="点击这里给我发消息" title="点击这里给我发消息"></a></span></td>
+              </tr>
+              <tr>
+                <td height="35" align="center"><span><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=872448062&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:872448062:42" alt="点击这里给我发消息" title="点击这里给我发消息"></a></span></span></td>
+              </tr>
+              <tr>
+                <td height="5"></td>
+              </tr>
+              <tr>
+                <td valign="top" height="35" align="center"><a target="_blank" href="http://www.uauc.net/"><img width="90" height="25" border="0" src="style/img3-5-btn1.gif"></a></td>
+              </tr>
+              <tr>
+                <td valign="top" height="38" align="center"><a target="_blank" href="http://www.uauc.net/"><img width="90" height="25" border="0" src="style/img3-5-btn2.gif"></a></td>
+              </tr>
+              <tr>
+                <td align="center"><div class="qun"><font color="#9b9b9b">高空技术交流群</font><br>
+                    <span>209547092</span></div></td>
+              </tr>
+              <tr>
+                <td align="center"><div class="qun"><font color="#9b9b9b">商家交流群</font><br>
+                    <span>209547092</span></div></td>
+              </tr>
+              <tr>
+                <td align="center">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table></td>
+      </tr>
+      <tr>
+        <td valign="top" class="down_kefu"></td>
+      </tr>
+    </tbody>
+  </table>
+  <div id="serv-bar"></div>
+</div>
+<div  id="main">
+  <h1> jQuery.onServ 1.0 </h1>
+  <div id="menu1">
+    <ul class="topmenu1" id="nav-menu">
+      <li><a href="index.html">首　　页</a></li>
+      <li><a href="index.html#summary">概述</a></li>
+      <li><a href="index.html#use">使用</a></li>
+      <li><a href="index.html#effect">弹出效果</a></li>
+      <li><a href="index.html#update">更新</a></li>
+      <li><a href="http://www.uauc.net">高空科技</a></li>
+      <li><a href="http://www.yaseng.me">Yaseng Blog</a></li>
+    </ul>
+  </div>
+  <font color="green">
+  <h2>简单方便的在线客服展示插件 jQuery.onServ   高空科技出品</h2>
+  </font>
+  <h2 id="summary">概述 </h2>
+  项目发布地址 <a  href="http://www.uauc.net/product/onserv.html" target="_blank"> www.uauc.net/product/onserv.html </a> <br>
+  演示地址   <a  href="http://www.uauc.net/product/onserv.html" target="_blank"> www.uauc.net/product/onserv.html </a> <br>
+  Google项目 <a  href="https://code.google.com/p/onserv/" target="_blank"> code.google.com/p/onserv </a> <br>
+  交流qq群         209547092 (高空科技交流群)
+  <pre>   jQuery.onServ 是一款简单方便的在线客服jQuery 插件,可以使任意html实现弹出展示在线客服效果,
+  可以自定义内容,简单配置出多个弹出动作特效,设置位置和样式.</pre>
+  <h2  id="use">使用 </h2>
+  <pre  style="color:#9F0">
+  $("#serv").onserv({
+	 top:70,            // 高度
+	 left:-156,          //缩进
+	 fx:"easeInOutBack",       //动作特效  
+	 speed:150,         //弹出时间
+	 opacity:0.9        //透明度
+	 });
+ </pre>
+ 可以使用任意html区块比如demo页面中的 serv div(内含图片psd)
+  <h2 id="effect">弹出效果 </h2>
+  动画效果采用 jQuery.easing 插件  可以自定义各种效果 <br>
+  <pre>
+方法介绍：
+
+    def：默认方式设置
+    swing：默认方式加载
+    Quad：二次方缓动(t)
+    Cubic：三次方缓动
+    Quart：四次方缓动
+    Quint：五次方缓动
+    Sine：正弦曲线缓动
+    Expo：指数曲线缓动
+    Circ：圆形曲线的缓动
+    Elastic：指数衰减的正弦曲线缓动
+    Back：超过范围的三次方缓动
+    Bounce：指数衰减的反弹缓动
+
+关于In、Out、Inout的说明：
+
+    easeIn：加速度缓动；
+    easeOut：减速度缓动；
+    easeInOut：先加速度至50%，再减速度完成动画。
+
+ </pre>
+  <h2 id="update"> 更新记录 </h2>
+  <h4> jQuery.onServ 1.0 </h4>
+  2012  11 7 实现在线弹出展示功能 兼容各种浏览器 <br>
+  <br>
+  <br>
+  <br>
+</div>
+</body>
+</html>
